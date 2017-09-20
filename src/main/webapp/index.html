@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Encurtador</title>
+<link rel="stylesheet" href="resources/css/style.css">
+<script src="http://code.jquery.com/jquery-3.1.1.js"></script>
+<script type="text/javascript" src="resources/js/script.js"></script>
+</head>
+
+<body>
+	<header>
+		<img style="margin-left: 47%"
+			src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2Tx4G3URE2mJq5HC-loirM86YWcjIclvEFJ2fmndoVG_enPn-XnTgOo4"
+			alt="goblin">
+	</header>
+	<section>
+
+		<form action="index.html" id="formulario" style="text-align: center;">
+			<h1>Consulta de URL's</h1>
+			<input type="hidden" id="id_uid" name="uid" > 
+			<label for="">Id da URL a ser buscada: </label><br> <br> <input
+				type="text" id="id_url" name="url"
+				style="width: 350px; height: 35px; text-align: center"
+				placeholder="Não digite nada para listar"><br><br> <input
+				type="submit" value="Enviar" id="enviar"> <span id="loading"></span>
+		</form>
+		<br/>
+		<div id="resultado" style="text-align: center;">
+			<input type="text" id="id_url_resultado" name="url_resultado" style="width: 350px; height: 35px; text-align: center" placeholder="Resultado">
+		</div>
+		<hr>
+	</section>
+</body>
+</html>
